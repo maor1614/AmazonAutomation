@@ -1,11 +1,11 @@
 
 {
-	"chrome_version" : "97",
+	"chrome_version" : "125",
 	"browserName" : "chrome",
 	"enableVNC" : "true",
 	"enableVideo" : "true",
-	"selenoid_framework_ip" : "http://172.16.0.68:4444",
+	"selenoid_framework_ip" : "http://10.0.0.12:4444",
 	"selenoid_my_comp": "http://172.16.30.9:4444/wd/hub",
-	"selenoid_work_ip" : "http://test:test-password@172.16.0.68:4444/wd/hub",
-	"ggr_proxing_video" :"http://172.16.0.68:4444/video/"
+	"selenoid_work_ip" : "http://test:test-password@10.0.0.12:4444/wd/hub",
+	"ggr_proxing_video" :"http://10.0.0.12:4444/video/"
 }
