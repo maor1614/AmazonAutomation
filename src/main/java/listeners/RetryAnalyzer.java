@@ -17,7 +17,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 
         if (nowCount<maxCount) {
             nowCount++;
-            return true; //пока истина перезапускаем
+            return true;
         }
         log.error("TEST FAILED TWICE "); // пишем в лог или делаем скриншот
         nowCount=0;
