@@ -1,9 +1,9 @@
-[INFO ] 2024-05-23 21:02:56,169 my test.onStart() - [TEST my test STARTED]
-[INFO ] 2024-05-23 21:02:56,233 BaseTest.createDriver() - Create driver: chrome 97
-[INFO ] 2024-05-23 21:02:59,622 BaseTest.baseSleep() - sleeping a : 2000 millisecond
-[INFO ] 2024-05-23 21:03:01,698 my test.onTestStart() - [Starting GetList]
-[INFO ] 2024-05-23 21:03:01,917 BaseTest.type_search_bar() - type in search bar
-[INFO ] 2024-05-23 21:03:03,073 my test.afterInvocation() - GetListis Success and screenshot taken 
-[INFO ] 2024-05-23 21:03:03,330 my test.onTestSuccess() - [Test GetList passed]
-[INFO ] 2024-05-23 21:03:03,339 BaseTest.tearDown() - close driver
-[INFO ] 2024-05-23 21:03:03,964 my test.onFinish() - [ALL my test FINISHED]
+[INFO ] 2024-05-23 21:03:21,038 my test.onStart() - [TEST my test STARTED]
+[INFO ] 2024-05-23 21:03:21,099 BaseTest.createDriver() - Create driver: chrome 97
+[INFO ] 2024-05-23 21:03:24,224 BaseTest.baseSleep() - sleeping a : 2000 millisecond
+[INFO ] 2024-05-23 21:03:26,292 my test.onTestStart() - [Starting GetList]
+[INFO ] 2024-05-23 21:03:26,491 BaseTest.type_search_bar() - type in search bar
+[INFO ] 2024-05-23 21:03:27,653 my test.afterInvocation() - GetListis Success and screenshot taken 
+[INFO ] 2024-05-23 21:03:27,890 my test.onTestSuccess() - [Test GetList passed]
+[INFO ] 2024-05-23 21:03:27,898 BaseTest.tearDown() - close driver
+[INFO ] 2024-05-23 21:03:28,515 my test.onFinish() - [ALL my test FINISHED]

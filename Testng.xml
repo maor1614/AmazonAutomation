@@ -6,7 +6,7 @@
     <test name="chrome">
         <parameter name="browser" value="chrome"></parameter>
         <parameter name="URL" value="https://www.amazon.com/"></parameter>
-        <parameter name="jsonPath" value="src/main/resources/mishlohim_prod.json"></parameter>
+        <parameter name="jsonPath" value="src/main/resources/testing.json"></parameter>
         <parameter name="select_phone" value="emulators"></parameter>
         <parameter name="device" value="R58MA6NCP2N"></parameter>
         <parameter name="numServer" value="1"></parameter>
