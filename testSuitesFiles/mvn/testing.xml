@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mishlohim" parallel="tests" thread-count="4">
+
+    <listeners>
+        <listener class-name="listeners.AnnotationTransformer"/>
+        <listener class-name="listeners.SuiteAlterer"/>
+    </listeners>
+
+
+    <test name="chrome" parallel="methods">
+        <parameter name="browser" value="${browser.env}"></parameter>
+        <parameter name="browser_ver" value="${browser_ver.env}"></parameter>
+        <parameter name="numServer" value="${numServer.env}"></parameter>
+        <parameter name="URL" value="https://www.amazon.com/"></parameter>
+        <parameter name="select_phone" value="emulators"></parameter>
+        <parameter name="jsonPath" value="src/main/resources/testing.json"></parameter>
+        <parameter name="selenoid_prop" value="src/main/resources/selenoidProp/Selenoid_properties_04.json"></parameter>
+        <parameter name="device" value="R58MA6NCP2N"></parameter>
+        <parameter name="platformName" value="android"></parameter>
+        <parameter name="port" value="4741"></parameter>
+        <parameter name="deviceName" value="samsung"></parameter>
+        <parameter name="platformVersion" value="9"></parameter>
+        <parameter name="appiumServer" value="http://127.0.0.1:4741/wd/hub"></parameter>
+        <parameter name="systemPort" value="6501"></parameter>
+        <parameter name="WdaLocalPort" value="7000"></parameter>
+        <parameter name="platform" value="web"></parameter>
+
+        <packages>
+            <package name="web.GetListTest"></package>
+
+
+        </packages>
+
+    </test>
+
+
+</suite>
