@@ -1,13 +1,17 @@
-[INFO ] 2024-05-25 01:29:03,530 my test.onStart() - [TEST my test STARTED]
-[INFO ] 2024-05-25 01:29:03,597 BaseTest.createDriver() - Create driver: selenoid 125
-[INFO ] 2024-05-25 01:29:03,618 BaseTest.createDriver() - create driver on 192.168.99.121 server
-[INFO ] 2024-05-25 01:29:08,814 BaseTest.baseSleep() - sleeping a : 2000 millisecond
-[INFO ] 2024-05-25 01:29:10,878 my test.onTestStart() - [Starting GetList]
-[INFO ] 2024-05-25 01:29:11,185 BaseTest.type_search_bar() - type in search bar
-[INFO ] 2024-05-25 01:29:12,468 BaseTest.click_serach_icon() - click search icon
-[INFO ] 2024-05-25 01:29:15,091 BaseTest.countProductTitles() - Counting product titles containing 'Harry Potter'
-[INFO ] 2024-05-25 01:29:15,557 BaseTest.sleep() - sleeping a : 4000 millisecond
-[INFO ] 2024-05-25 01:29:19,560 my test.afterInvocation() - GetListis Success and screenshot taken 
-[INFO ] 2024-05-25 01:29:19,816 my test.onTestSuccess() - [Test GetList passed]
-[INFO ] 2024-05-25 01:29:19,824 BaseTest.tearDown() - close driver
-[INFO ] 2024-05-25 01:29:19,883 my test.onFinish() - [ALL my test FINISHED]
+[DEBUG] 2024-05-26 20:27:38,201 TestNG.debug() - suiteXmlPath: "C:\automation\AmazonAutomation\Testng.xml"
+[INFO ] 2024-05-26 20:27:38,818 Utils.info() - [TestNG] Running:
+  C:\automation\AmazonAutomation\Testng.xml
+
+[INFO ] 2024-05-26 20:27:38,831 my test.onStart() - [TEST my test STARTED]
+[INFO ] 2024-05-26 20:27:38,925 BaseTest.createDriver() - Create driver: selenoid 125
+[INFO ] 2024-05-26 20:27:38,951 BaseTest.createDriver() - create driver on 192.168.99.121 server
+[INFO ] 2024-05-26 20:27:44,176 BaseTest.baseSleep() - sleeping a : 2000 millisecond
+[INFO ] 2024-05-26 20:27:46,237 my test.onTestStart() - [Starting GetList]
+[INFO ] 2024-05-26 20:27:46,507 BaseTest.type_search_bar() - type in search bar
+[INFO ] 2024-05-26 20:27:47,763 BaseTest.click_serach_icon() - click search icon
+[INFO ] 2024-05-26 20:27:50,175 BaseTest.countProductTitles() - Counting product titles containing 'Harry Potter'
+[INFO ] 2024-05-26 20:27:50,672 BaseTest.sleep() - sleeping a : 4000 millisecond
+[INFO ] 2024-05-26 20:27:54,676 my test.afterInvocation() - GetListis Success and screenshot taken 
+[INFO ] 2024-05-26 20:27:55,008 my test.onTestSuccess() - [Test GetList passed]
+[INFO ] 2024-05-26 20:27:55,009 BaseTest.tearDown() - close driver
+[INFO ] 2024-05-26 20:27:55,075 my test.onFinish() - [ALL my test FINISHED]
