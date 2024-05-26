@@ -29,14 +29,12 @@ Allure
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/maor1614/AmazonAutomation.git
 cd AmazonAutomation
 Install dependencies:
 
-bash
-Copy code
+
 mvn clean install
 Set up Selenoid:
 
@@ -53,13 +51,10 @@ Ensure that the config.xml file has the correct configuration for your environme
 
 Run the tests:
 
-bash
-Copy code
 mvn test
 Generate Allure report:
 
 After running the tests, generate the Allure report using:
 
-bash
-Copy code
+
 allure serve target/allure-results
