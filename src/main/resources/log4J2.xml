@@ -3,7 +3,7 @@
     <Properties>
         <Property name="logPath">logs</Property>
         <Property name="rollingFileName">logInfo</Property>
-    </Properties>`
+    </Properties>
     <Appenders>
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout pattern="[%highlight{%-5level}] %d{DEFAULT} %c{1}.%M() - %msg%n%throwable{short.lineNumber}" />
@@ -15,10 +15,10 @@
                 <OnStartupTriggeringPolicy />
                 <!-- Causes a rollover once the date/time pattern no longer applies to the active file -->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="1KB" />
             </Policies>
-            <SizeBasedTriggeringPolicy size="1KB" />
+            <DefaultRolloverStrategy max="5" />
         </RollingFile>
-        <DefaultRolloverStrategy max="5" />
     </Appenders>
     <Loggers>
         <Root level="DEBUG" additivity="false">

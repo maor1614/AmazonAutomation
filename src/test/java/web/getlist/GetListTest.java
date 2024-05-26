@@ -9,7 +9,7 @@ import pages.HomePage;
 
 public class GetListTest extends TestUtilities {
     @Parameters({"jsonPath"})
-    @Epic("bascketTests")
+    @Epic("amazontest")
     @Feature("Add")
     @Test(testName = "getList", description = "חיפוש ובדיקות באתר")
     public void GetList(String jsonPath) {
