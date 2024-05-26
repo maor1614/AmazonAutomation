@@ -1,5 +1,7 @@
 AmazonAutomation
+
 Overview
+
 AmazonAutomation is a test automation project built using Java and Selenium WebDriver. It follows the Page Object Model (POM) design pattern, enabling a more readable, maintainable, and reusable test code structure. The project leverages an XML file for configuration, and integrates with Selenoid for scalable browser automation, as well as Allure for detailed and beautiful test reports.
 
 Features
