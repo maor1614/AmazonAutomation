@@ -27,7 +27,7 @@
         <parameter name="platform" value="web"></parameter>
 
         <packages>
-            <package name="web.GetListTest"></package>
+            <package name="web.getlist.GetListTest"></package>
 
 
         </packages>

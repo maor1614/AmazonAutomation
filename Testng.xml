@@ -20,13 +20,8 @@
         <parameter name="platform" value="web"></parameter>
 
         <classes>
-            <class name="web.GetListTest"></class>
+            <class name="web.getlist.GetListTest"></class>
         </classes>
-        <!--        <packages>-->
-        <!--            <package name="web.bascketTests.globalTests"></package>-->
-        <!--            <package name="web.bascketTests.add"></package>-->
-        <!--            <package name="web.bascketTests.editsProducts"></package>-->
-        <!--        </packages>-->
 
     </test>
 

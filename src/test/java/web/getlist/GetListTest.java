@@ -1,4 +1,4 @@
-package web;
+package web.getlist;
 
 import base.TestUtilities;
 import io.qameta.allure.Epic;
