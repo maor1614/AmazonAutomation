@@ -140,7 +140,7 @@
                         --add-opens java.base/java.lang.reflect=ALL-UNNAMED
                     </argLine>
                     <systemPropertyVariables>
-                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <allure.results.directory>/opt/allure/bin</allure.results.directory>
                     </systemPropertyVariables>
                 </configuration>
                 <dependencies>
